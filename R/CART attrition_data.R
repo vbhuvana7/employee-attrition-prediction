@@ -13,7 +13,7 @@ library(rpart.plot)
 
 set.seed(111)
 #Excluding few columns
-attrition_data <- attrition_data[-c(1,2,3,14)]
+attrition_data <- attrition_data[-c(1,2,3,14,22,35)]
 summary(attrition_data)
 
 #Converting all columns to factors
